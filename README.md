@@ -1,11 +1,16 @@
 # NTU student
 
+## Bio
+TODO
+[email](mailto:r12942104@ntu.edu.tw)/cv
+
 ## Education
-> **B.S. EE** | National Taiwan University | 2019-2023 
 > **M.S. EE** | National Taiwan University | 2023-present
+> **B.S. EE** | National Taiwan University | 2019-2023 
 
 ## Working Experience
-Teaching Assistant
+**Teaching Assistant**
+> Calculus | 2021-2022
 
 ## Project
 
