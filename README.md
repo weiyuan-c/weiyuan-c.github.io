@@ -3,7 +3,7 @@
 ## Bio
 TODO
 
-[email](mailto:r12942104@ntu.edu.tw)/cv
+[email](mailto:r12942104@ntu.edu.tw) / cv
 
 ## Education
 > **M.S. EE** | National Taiwan University | 2023-present
