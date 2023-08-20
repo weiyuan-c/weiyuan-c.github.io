@@ -4,7 +4,9 @@
 
 TODO
 
-[email](mailto:r12942104@ntu.edu.tw) / cv
+<p align="center">
+  [email](mailto:r12942104@ntu.edu.tw) / cv
+</p>
 
 ## Education
 > **M.S. EE** | National Taiwan University | 2023-present
