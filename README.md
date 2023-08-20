@@ -2,7 +2,7 @@
 
 ## Education
 > **B.S. EE** | National Taiwan University | 2019-2023 
-> **M.S. EE** | National Taiwan University | 2019-present
+> **M.S. EE** | National Taiwan University | 2023-present
 
 ## Working Experience
 Teaching Assistant
