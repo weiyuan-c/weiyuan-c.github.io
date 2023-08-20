@@ -6,7 +6,7 @@ TODO
 
 <p align="center">
 <!--   [email](mailto:r12942104@ntu.edu.tw) / cv -->
-  <a href="mailto:r12942104@ntu.edu.tw">email</a> / <a href="mailto:r12942104@ntu.edu.tw">CV</a> / <a href="https://github.com/weiyuan-c">Github</a>
+  <a href="mailto:r12942104@ntu.edu.tw">email</a> / <a href="https://drive.google.com/file/d/159Re8udGLNxICTxONhFoaq95CfTMfRSW/view?usp=sharing">CV</a> / <a href="https://github.com/weiyuan-c">Github</a>
 
 </p>
 
