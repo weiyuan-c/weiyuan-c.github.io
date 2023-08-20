@@ -6,6 +6,9 @@ TODO
 
 <p align="center">
   [email](mailto:r12942104@ntu.edu.tw) / cv
+  
+  <a href="mailto:r12942104@ntu.edu.tw">email</a> / cv
+
 </p>
 
 ## Education
