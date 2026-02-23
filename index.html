@@ -1,35 +1,262 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>個人簡介</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            color: #666;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>我的名字</h1>
-        <p>歡迎來到我的個人簡介網頁！這裡是一些關於我自己的基本資訊。</p>
-        <h2>聯絡資訊</h2>
-        <p>Email：example@example.com</p>
-        <p>電話：123-456-7890</p>
-    </div>
-</body>
-</html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio of Cheng, Wei-Yuan">
+    <title>Cheng, Wei-Yuan | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="#" class="nav-link home-icon" aria-label="Home">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+            </svg>
+        </a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#publications" class="nav-link">Publications</a>
+
+        <div class="theme-switch-wrapper">
+            <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                <div class="slider round"></div>
+            </label>
+        </div>
+    </nav>
+
+    <div class="container">
+        <header>
+            <div class="header-container">
+                <div class="header-text fade-in">
+                    <h1>Cheng, Wei-Yuan</h1>
+                    <p class="tagline">AI Software Engineer @ NVIDIA | M.S. GICE & B.S. EE @ NTU</p>
+                    <div class="bio-text">
+                        <p>
+                            Hi, I am Wei-Yuan Cheng, currently working as an AI Software Engineer at NVIDIA. Prior to
+                            this, I completed my M.S. and B.S. degrees in Electrical Engineering at National Taiwan
+                            University.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="header-profile fade-in delay-1">
+                    <div class="profile-img-container">
+                        <img src="images/photo.jpg" alt="Cheng, Wei-Yuan" class="profile-img">
+                    </div>
+                    <div class="social-links">
+                        <a href="mailto:chenken@nvidia.com" class="social-link" aria-label="Email" title="Email">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                </path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </a>
+                        <a href="https://drive.google.com/file/d/159Re8udGLNxICTxONhFoaq95CfTMfRSW/view?usp=sharing"
+                            target="_blank" class="social-link" aria-label="CV" title="CV">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                <polyline points="14 2 14 8 20 8"></polyline>
+                                <line x1="16" y1="13" x2="8" y2="13"></line>
+                                <line x1="16" y1="17" x2="8" y2="17"></line>
+                                <polyline points="10 9 9 9 8 9"></polyline>
+                            </svg>
+                        </a>
+                        <a href="https://github.com/weiyuan-c" target="_blank" class="social-link" aria-label="GitHub"
+                            title="GitHub">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path
+                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                </path>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/weiyuan0819" target="_blank" class="social-link"
+                            aria-label="LinkedIn" title="LinkedIn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                </path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section id="experience">
+                <h2>Work Experience</h2>
+                <div class="card-list">
+                    <div class="card-item">
+                        <div class="item-header">
+                            <img src="images/nvidia.png" class="org-logo" alt="NVIDIA">
+                            <div>
+                                <div class="item-title">AI Software Engineer (RDSS Intern)</div>
+                                <div class="item-subtitle">NVIDIA</div>
+                            </div>
+                        </div>
+                        <div class="item-date">2025 - Present</div>
+                        <div class="item-description">
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <div class="item-header">
+                            <img src="images/ntu.png" class="org-logo" alt="NTU">
+                            <div>
+                                <div class="item-title">Teaching Assistant</div>
+                                <div class="item-subtitle">DLCV @ National Taiwan University</div>
+                            </div>
+                        </div>
+                        <div class="item-date">2023 Fall & 2024 Fall</div>
+                        <div class="item-description">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="education">
+                <h2>Education</h2>
+                <div class="card-list">
+                    <div class="card-item">
+                        <div class="item-header">
+                            <img src="images/ntu.png" class="org-logo" alt="NTU">
+                            <div>
+                                <div class="item-title">M.S. in Electrical Engineering</div>
+                                <div class="item-subtitle">National Taiwan University</div>
+                            </div>
+                        </div>
+                        <div class="item-date">2023 - 2025</div>
+                        <div class="item-description">
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <div class="item-header">
+                            <img src="images/ntu.png" class="org-logo" alt="NTU">
+                            <div>
+                                <div class="item-title">B.S. in Electrical Engineering</div>
+                                <div class="item-subtitle">National Taiwan University</div>
+                            </div>
+                        </div>
+                        <div class="item-date">2019 - 2023</div>
+                        <div class="item-description">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="publications">
+                <h2>Selected Publications</h2>
+                <div class="card-list">
+                    <div class="card-item">
+                        <div class="item-date">2025</div>
+                        <div class="project-card">
+                            <div class="project-thumbnail">
+                                <!-- Placeholder image - user can replace -->
+                                <img src="images/projects/ta_prompting.png" alt="TA-Prompting Teaser">
+                            </div>
+                            <div class="project-details">
+                                <a href="#" class="project-title">TA-Prompting: Enhancing Video Large Language Models
+                                    for Dense Video Captioning via Temporal Anchors</a>
+                                <div class="project-authors">
+                                    <strong>Wei-Yuan Cheng*</strong> , Kai-Po Chang* , Chi-Pin Huang , Fu-En Yang ,
+                                    Yu-Chiang Frank Wang
+                                </div>
+                                <div class="project-venue">
+                                    IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2026
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://arxiv.org/pdf/2601.02908">paper</a>
+                                    <a href="#">project</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card" style="margin-top: 2rem;">
+                            <div class="project-thumbnail">
+                                <img src="images/projects/santa.png" alt="SANTA Teaser">
+                            </div>
+                            <div class="project-details">
+                                <a href="#" class="project-title">
+                                    Mitigating Object and Action Hallucinations in Multimodal LLMs via Self-Augmented
+                                    Contrastive Alignment</a>
+                                <div class="project-authors">
+                                    Kai-Po Chang , <strong>Wei-Yuan Cheng</strong> , Chi-Pin Huang , Fu-En Yang ,
+                                    Yu-Chiang Frank Wang
+                                </div>
+                                <div class="project-venue">
+                                    IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2026
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://arxiv.org/pdf/2512.04356">paper</a>
+                                    <a href="https://kpc0810.github.io/santa">project</a>
+                                </div>
+                                <!-- <div class="project-abstract">
+                                    # TODO
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <div class="item-date">2023</div>
+                        <div class="project-card">
+                            <div class="project-thumbnail">
+                                <img src="images/projects/rapper.png" alt="2023 Project Teaser">
+                            </div>
+                            <div class="project-details">
+                                <a href="#" class="project-title">RAPPER: Reinforced Rationale-Prompted Paradigm for
+                                    Natural Language Explanation in Visual Question Answering</a>
+                                <div class="project-authors">
+                                    Kai-Po Chang , Chi-Pin Huang , <strong>Wei-Yuan Cheng</strong> , Fu-En Yang ,
+                                    Chien-Yi Wang , Yung-Hsuan Lai , Yu-Chiang Frank Wang
+                                </div>
+                                <div class="project-venue">
+                                    International Conference on Learning Representations (ICLR) 2024
+                                </div>
+                                <div class="project-links">
+
+                                </div><a href="https://openreview.net/forum?id=bshfchPM9H" target="_blank">paper</a>
+                                <!-- <div class="project-abstract">x
+                                    Description of your project in 2023. You can update this text with your actual
+                                    publication details.
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="footer-content">
+                <!-- Map Container -->
+                <div class="map-container">
+                    <script type="text/javascript" id="mapmyvisitors"
+                        src="https://mapmyvisitors.com/map.js?cl=0e1633&w=300&t=tt&d=jHyUY0W-M5uTdA-riPok5Fg6IJgNEubr3ZCWdqFmXwE&co=0b4975&cmo=3acc3a&cmn=ff5353&ct=cdd4d9"></script>
+                </div>
+                <div class="footer-credits">
+                    <p>&copy;
+                        <script>document.write(new Date().getFullYear())</script> Cheng, Wei-Yuan. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
